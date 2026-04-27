@@ -11,7 +11,7 @@ pipeline {
         stage('Clone') {
             steps {
                 echo 'Cloning repository...'
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/devops-app.git'
+                git branch: 'main', url: 'https://github.com/Dinesuwaran/devops-app.git'
             }
         }
 
